@@ -1,0 +1,6 @@
+C:\Users\Itihell\Desktop\Consola1\Consola1\bin\Debug\Consola1.exe.config
+C:\Users\Itihell\Desktop\Consola1\Consola1\bin\Debug\Consola1.exe
+C:\Users\Itihell\Desktop\Consola1\Consola1\bin\Debug\Consola1.pdb
+C:\Users\Itihell\Desktop\Consola1\Consola1\obj\Debug\Consola1.csprojResolveAssemblyReference.cache
+C:\Users\Itihell\Desktop\Consola1\Consola1\obj\Debug\Consola1.exe
+C:\Users\Itihell\Desktop\Consola1\Consola1\obj\Debug\Consola1.pdb
