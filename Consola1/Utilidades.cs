@@ -7,7 +7,7 @@ namespace Consola1
     class Utilidades
     {
 
-        public int leerNumeroYAsignar(string mensaje)
+        public float leerNumeroYAsignar(string mensaje)
         {
             string valorInicial = "";
 
@@ -17,10 +17,10 @@ namespace Consola1
             return validarNumero(valorInicial);
         }
 
-        public int validarNumero(string valor)
+        public float validarNumero(string valor)
         {
-            int numero = 0;
-            bool esNumero = int.TryParse(valor, out numero);
+            float numero = 0;
+            bool esNumero = float.TryParse(valor, out numero);
 
             if (esNumero)
             {

@@ -1,34 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace Consola1
 {
     class Operaciones:Utilidades
     {
-        int numeroUno;
-        int numeroDos;       
-        int resultado;
-
-       
-
-
-
-
+        float numeroUno;
+        float numeroDos;       
+        float resultado;
         
-        public int NumeroUno
+        public float NumeroUno
         {
           get { return numeroUno; }
           set { numeroUno = value; }
         }
 
-        public int NumeroDos
+        public float NumeroDos
         {
             get { return numeroDos; }
             set { numeroDos = value; }
         }
 
-        public int Resultado
+        public float Resultado
         {
             get { return resultado; }
             set { resultado = value; }
@@ -43,14 +38,14 @@ namespace Consola1
         }
 
 
-        public void darSalida(int suma)
+        public void darSalida(float suma)
         {
-            Console.WriteLine("El resultado es: " + suma);
+            Console.WriteLine("El resultado es: "+String.Format(CultureInfo.InvariantCulture,"{0:0.00}",suma));
             Console.ReadKey();
         }
 
 
-        public int operacion(int a, int b)
+        public int operacion(float a, float b)
         {
             return 0;
         }

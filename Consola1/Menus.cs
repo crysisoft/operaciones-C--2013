@@ -34,7 +34,7 @@ namespace Consola1
             string ingreso_teclado;
             Console.WriteLine("Seleccione una opción");
             ingreso_teclado = Console.ReadLine();
-            this.operacion = utilidad.validarNumero(ingreso_teclado);
+            this.operacion =int.Parse( Math.Truncate (utilidad.validarNumero(ingreso_teclado)).ToString());
 
         }
 
@@ -53,6 +53,10 @@ namespace Consola1
                 case 3:
                     Multiplicar multiplica = new Multiplicar();
                     multiplica.Iniciar();
+                    break;
+                case 4:                   
+                    Dividir dividir = new Dividir();
+                    dividir.Iniciar();
                     break;
                 case 5:
                     Environment.Exit(1);

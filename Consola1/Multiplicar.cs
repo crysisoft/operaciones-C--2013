@@ -13,7 +13,7 @@ namespace Consola1
             darSalida(Resultado);
         }
 
-        static int operacion(int a, int b)
+        static float operacion(float a, float b)
         {
 
             return a * b;

@@ -46,6 +46,7 @@
     <Compile Include="Operaciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Dividir.cs" />
     <Compile Include="Restar.cs" />
     <Compile Include="Sumar.cs" />
     <Compile Include="Utilidades.cs" />
