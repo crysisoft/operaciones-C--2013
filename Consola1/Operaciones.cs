@@ -34,7 +34,22 @@ namespace Consola1
         {
             Console.WriteLine(mensaje);
             NumeroUno = leerNumeroYAsignar("Entre el primer número");
-            NumeroDos = leerNumeroYAsignar("Entre el segundo número");           
+            NumeroDos = leerNumeroYAsignar("Entre el segundo número");
+            preguntarSiOrdernar();
+            ordenarNumeros();
+           
+        }
+
+        public void ordenarNumeros()
+        {
+            if (this.Ordenar)
+            {
+                float numeroMayor = this.buscarMayorMenor(numeroUno, numeroDos, true);
+                float numeroMenor = this.buscarMayorMenor(numeroUno, numeroDos, false);
+
+                this.NumeroUno = numeroMayor;
+                this.NumeroDos = numeroMenor;
+            }
         }
 
 
